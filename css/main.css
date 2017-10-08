@@ -1,5 +1,5 @@
 html {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   color: #fff;
 }
 
@@ -39,4 +39,10 @@ html {
 
 .btn-ghost:hover .icon {
   transform: translate(0, -.5em);
+}
+
+.btn-ghost {
+  color: #b4fff4;
+  border-color: #b4fff4;
+  transition: all 250ms ease;
 }
