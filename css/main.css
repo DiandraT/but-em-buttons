@@ -4,7 +4,7 @@ html {
 }
 
 .banner {
-  background-image: url(../images/starfield.png);
+  background-image: url("../images/starfield.png");
   padding-top: 15em;
   padding-bottom: 15em;
 }
@@ -19,6 +19,7 @@ html {
   color: #b4fff4;
   border-color: #90ccc3;
   transition: all 250ms ease;
+  background-color: rgba(180, 255, 244, .2);
 }
 
 .icon {
@@ -28,9 +29,14 @@ html {
 
 .btn {
   transition: all 250ms ease;
+  border-radius: 5px;
 }
 
 .btn:active {
   top: 1.5em;
-  transform: translate(0 .25em);
+  transform: translate(0, .25em);
+}
+
+.btn-ghost:hover .icon {
+  transform: translate(0, -.5em);
 }
